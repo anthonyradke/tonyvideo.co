@@ -1,19 +1,19 @@
 # tonyvideo.co
 
-The code for [tonyvideo.co](https://tonyvideo.co), my video portfolio. I do motion design, 3D animation and
-editing under the name tonymode.
+Source for [tonyvideo.co](https://tonyvideo.co), a portfolio of motion design, 3D animation and video editing
+published under the name tonymode.
 
-It's plain HTML, CSS and JavaScript. No framework, no build step. GitHub Pages hosts it.
+Plain HTML, CSS and JavaScript with no framework or build step, hosted on GitHub Pages.
 
 ## Details
 
 The design is based on a video editing timeline. As you scroll, a playhead moves across the top of the page
 and a timecode counts up, like scrubbing through a one minute clip.
 
-The background at the top plays one of five short video loops, picked at random. You won't get the same one
-twice in a row. If your device has reduced motion or data saver turned on, it shows a still image instead.
+The background at the top plays one of five short video loops, picked at random and never the same twice in a
+row. With reduced motion or data saver turned on, a still image is shown instead.
 
-Videos in the work section open in a player on the page. YouTube doesn't load until you hit play, which keeps
+Videos in the work section open in a player on the page. YouTube isn't loaded until play is pressed, which keeps
 the page fast.
 
 ## Files
@@ -53,3 +53,7 @@ Then raise `LOOPS` in `js/main.js` by one.
 ```
 python3 -m http.server 8000
 ```
+
+## License
+
+The code (HTML, CSS and JavaScript) is MIT licensed. The videos, thumbnails, loops and other media are not; see [LICENSE](LICENSE).
